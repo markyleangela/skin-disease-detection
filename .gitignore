@@ -1,0 +1,57 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Python virtual environments
+.vscode/
+.idea/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# pytest cache
+.cache/
+
+# mypy
+.mypy_cache/
+
+# pyre type checker
+.pyre/
+
+# IDE/editor files
+*.swp
+*~
+*.bak
+*.tmp
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Log files
+*.log
+
+# Coverage reports
+.coverage
+*.coveragerc
+.coverage.*
+
+# Pytest coverage reports
+*.tox/
+*.nox/
+*.coverage
+nosetests.xml
+coverage.xml
+*.hypothesis/
