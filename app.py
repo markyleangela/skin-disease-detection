@@ -40,12 +40,12 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Download model if not already present ---
-model_url = 'https://drive.google.com/uc?id=1T3BwgyvzZEDqZF_aH1muIEIJu4hlUSbc'
+model_url = 'https://drive.google.com/uc?id=1qtDZb4hyKbge8tE5E2TgmdOfK8B1IAit'
 model_path = './models/better_model.keras'
 os.makedirs(os.path.dirname(model_path), exist_ok=True)
 
 if not os.path.exists(model_path):
-    gdown.download(id='1T3BwgyvzZEDqZF_aH1muIEIJu4hlUSbc', output=model_path, quiet=False)
+    gdown.download(id='1qtDZb4hyKbge8tE5E2TgmdOfK8B1IAit', output=model_path, quiet=False)
 
 try:
     model = load_model(model_path)
